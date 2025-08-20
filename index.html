@@ -262,21 +262,9 @@
     });
 
     document.getElementById('confetti-btn').addEventListener('click', () => {
-      confetti({
-        particleCount: 150,
-        spread: 70,
-        origin: { y: 0.6 },
-        colors: ['#ff0000', '#ff69b4', '#ff1493', '#ffc0cb']
-      });
-      setTimeout(() => {
-        confetti({
-          particleCount: 30,
-          spread: 60,
-          origin: { y: 0.5 },
-          shapes: ['heart'],
-          colors: ['#ff0000', '#ff69b4']
-        });
-      }, 300);
+       setTimeout(() => {
+    window.location.href = "https://your-link-here.com";
+  }, 1000);
     });
 
     updateProgressBar();
